@@ -11,10 +11,10 @@ Made specifically so I can speed up making the code for [Decorations](https://gi
 Don't.
 
 # Roadmap
-- [ ] captital and lowercase functions
+- [X] captital functions
 - [X] export to `.txt` file
 - [ ] make `DataGen_builder.cpp`
-- [ ] make `Inventory_builder.cpp`
+- [X] make `ItemGroup_builder.cpp`
 - [ ] make `Model_builder.cpp`
 
 # Contributes
