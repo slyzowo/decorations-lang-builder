@@ -13,7 +13,7 @@ Don't.
 # Roadmap
 - [X] captital functions
 - [X] export to `.txt` file
-- [ ] make `DataGen_builder.cpp`
+- [X] make `DataGen_builder.cpp`
 - [X] make `ItemGroup_builder.cpp`
 - [ ] make `Model_builder.cpp`
 
