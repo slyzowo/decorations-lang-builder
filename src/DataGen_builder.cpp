@@ -33,42 +33,6 @@ void ChairBlockGen(){
   out.close();
 }
 
-void StoolBlockGen(){
-  ofstream out("generated/MobBlockGen.txt", std::ios::app);
-
-  for(int i = 0; i < wood.size(); i++){
-    string blockname = wood[i] + "_" + furniture[1];
-    out  << "blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks." << capitalize(blockname) << ");" << '\n';
-  }
-
-  for(int i = 0; i < wood.size(); i++){
-      for(int j = 0; j < colour.size(); j++){
-    string blockname = colour[j] + "_cushioned_" + wood[i] + "_" + furniture[1];
-    out  << "blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks." << capitalize(blockname) << ");" << '\n';
-    }
-  }
-
-  out.close();
-}
-
-void AttomanBlockGen(){
-  ofstream out("generated/MobBlockGen.txt", std::ios::app);
-
-  for(int i = 0; i < wood.size(); i++){
-    string blockname = wood[i] + "_" + furniture[2];
-    out  << "blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks." << capitalize(blockname) << ");" << '\n';
-  }
-
-  for(int i = 0; i < wood.size(); i++){
-      for(int j = 0; j < colour.size(); j++){
-    string blockname = colour[j] + "_cushioned_" + wood[i] + "_" + furniture[2];
-    out  << "blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks." << capitalize(blockname) << ");" << '\n';
-    }
-  }
-
-  out.close();
-}
-
 void EggChairBlockGen(){
   ofstream out("generated/MobBlockGen.txt", std::ios::app);
 
@@ -101,8 +65,6 @@ int main() {
 
 // Sittable Blocks
   ChairBlockGen();
-  StoolBlockGen();
-  AttomanBlockGen();
   EggChairBlockGen();
   FoldingChairBlockGen();
 

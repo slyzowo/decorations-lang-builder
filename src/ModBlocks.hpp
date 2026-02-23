@@ -112,7 +112,9 @@ inline std::vector<std::string> mapcolour = {
     "brown", 
     "light gray", 
     "gray", 
-    "black" 
+    "black",
+    "pride",
+    "transgender",
   };
 
   inline std::vector<std::string> furniture = {
