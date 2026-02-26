@@ -5,29 +5,29 @@
 // static unless mc adds more woods
   inline std::vector<std::string> woods = {
     "oak",
-    "stripped oak",
+    "stripped_oak",
     "spruce",
-    "stripped spruce",
+    "stripped_spruce",
     "birch",
-    "stripped birch",
+    "stripped_birch",
     "jungle",
-    "stripped jungle",
+    "stripped_jungle",
     "acacia",
-    "stripped acacia",
-    "dark oak",
-    "stripped dark oak",
+    "stripped_acacia",
+    "dark_oak",
+    "stripped_dark_oak",
     "mangrove",
-    "stripped mangrove",
+    "stripped_mangrove",
     "cherry",
-    "stripped cherry",
-    "pale oak",
-    "stripped pale oak",
+    "stripped_cherry",
+    "pale_oak",
+    "stripped_pale_oak",
     "bamboo",
-    "stripped bamboo",
+    "stripped_bamboo",
     "crimson",
-    "stripped crimson",
+    "stripped_crimson",
     "warped",
-    "stripped warped",
+    "stripped_warped",
   };
 
 // static unless mc adds more colours
@@ -39,13 +39,13 @@
     "yellow", 
     "lime", 
     "green", 
-    "light blue", 
+    "light_blue", 
     "cyan", 
     "blue", 
     "purple", 
     "magenta", 
     "brown", 
-    "light gray", 
+    "light_gray", 
     "gray", 
     "black",
     "pride",
@@ -53,12 +53,12 @@
   };
 
   inline std::vector<std::string> furniture = {
-    "dining chair",     // RED_cushioned_OAK_DINING_CHAIR
-    "ladderback chair", // RED_cushioned_OAK_LADDERBACK_CHAIR
+    "dining_chair",     // RED_cushioned_OAK_DINING_CHAIR
+    "ladderback_chair", // RED_cushioned_OAK_LADDERBACK_CHAIR
     "pew",              // RED_cushioned_OAK_PEW
-    "director chair",   // RED_OAK_DIRECTORS_CHAIR
-    "egg chair",        // RED_EGG_CHAIR
-    "folding chair",    // RED_cushioned_FOLDING_CHAIR
+    "director_chair",   // RED_OAK_DIRECTORS_CHAIR
+    "egg_chair",        // RED_EGG_CHAIR
+    "folding_chair",    // RED_cushioned_FOLDING_CHAIR
     "bench",            // RED_BENCH
     "stool",            // RED_cushioned_OAK_STOOL
     "attoman",          // RED_cushioned_OAK_ATTOMAN
@@ -76,11 +76,13 @@
 
   inline std::vector<std::string> stones = {
     "stone",
-    "smooth stone",
+    "smooth_stone",
     "granite",
-    "polished granite",
+    "polished_granite",
     "andesite",
-    "polished andesite",
+    "polished_andesite",
     "diorite",
-    "polished diorite",
+    "polished_diorite",
+    "tuff",
+    "polished_tuff",
   };

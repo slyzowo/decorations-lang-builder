@@ -16,30 +16,30 @@ void ChairBlockGen(){
 
   ofstream out("generated/MobBlockGen.txt", std::ios::app);
 
-  for(int i = 0; i < wood.size(); i++){
+  for(int i = 0; i < woods.size(); i++){
 
-    string blockname = wood[i] + "_" + furniture[0];
+    string blockname = woods[i] + "_" + furniture[0];
 
     out  << "public static final Block " << capitalize(blockname) << " = registerBlock(\"" << blockname << "\", " << '\n'
     << "  new ChairBlock(AbstractBlock.Settings.create()" << '\n'
     << "  .nonOpaque()" << '\n'
     << "  .mapColor(MapColor.OAK_TAN)" << '\n'
     << "  .strength(0.8F)" << '\n'
-    << "  .sounds(BlockSoundGroup.WOOD)" << '\n'
+    << "  .sounds(BlockSoundGroup.WOODs)" << '\n'
     << "  .burnable()));" << "\n\n";
   }
 
-  for(int i = 0; i < wood.size(); i++){
-      for(int j = 0; j < colour.size(); j++){
+  for(int i = 0; i < woods.size(); i++){
+      for(int j = 0; j < colours.size(); j++){
 
-    string blockname = colour[j] + "_cushioned_" + wood[i] + "_" + furniture[0];
+    string blockname = colours[j] + "_cushioned_" + woods[i] + "_" + furniture[0];
 
     out  << "public static final Block " << capitalize(blockname) << " = registerBlock(\"" << blockname << "\", " << '\n'
     << "  new ChairBlock(AbstractBlock.Settings.create()" << '\n'
     << "  .nonOpaque()" << '\n'
     << "  .mapColor(MapColor.OAK_TAN)" << '\n'
     << "  .strength(0.8F)" << '\n'
-    << "  .sounds(BlockSoundGroup.WOOD)" << '\n'
+    << "  .sounds(BlockSoundGroup.WOODs)" << '\n'
     << "  .burnable()));" << "\n\n";
     }
   }
@@ -50,30 +50,30 @@ void ChairBlockGen(){
 void StoolBlockGen(){
   ofstream out("generated/MobBlockGen.txt", std::ios::app);
 
-  for(int i = 0; i < wood.size(); i++){
+  for(int i = 0; i < woods.size(); i++){
 
-    string blockname = wood[i] + "_" + furniture[1];
+    string blockname = woods[i] + "_" + furniture[1];
 
     out  << "public static final Block " << capitalize(blockname) << " = registerBlock(\"" << blockname << "\", " << '\n'
     << "  new Block(AbstractBlock.Settings.create()" << '\n'
     << "  .nonOpaque()" << '\n'
     << "  .mapColor(MapColor.OAK_TAN)" << '\n'
     << "  .strength(0.8F)" << '\n'
-    << "  .sounds(BlockSoundGroup.WOOD)" << '\n'
+    << "  .sounds(BlockSoundGroup.WOODs)" << '\n'
     << "  .burnable()));" << "\n\n";
   }
 
-  for(int i = 0; i < wood.size(); i++){
-      for(int j = 0; j < colour.size(); j++){
+  for(int i = 0; i < woods.size(); i++){
+      for(int j = 0; j < colours.size(); j++){
 
-    string blockname = colour[j] + "_cushioned_" + wood[i] + "_" + furniture[1];
+    string blockname = colours[j] + "_cushioned_" + woods[i] + "_" + furniture[1];
 
     out  << "public static final Block " << capitalize(blockname) << " = registerBlock(\"" << blockname << "\", " << '\n'
     << "  new ChairBlock(AbstractBlock.Settings.create()" << '\n'
     << "  .nonOpaque()" << '\n'
     << "  .mapColor(MapColor.OAK_TAN)" << '\n'
     << "  .strength(0.8F)" << '\n'
-    << "  .sounds(BlockSoundGroup.WOOD)" << '\n'
+    << "  .sounds(BlockSoundGroup.WOODs)" << '\n'
     << "  .burnable()));" << "\n\n";
     }
   }
@@ -84,30 +84,30 @@ void StoolBlockGen(){
 void AttomanBlockGen(){
   ofstream out("generated/MobBlockGen.txt", std::ios::app);
 
-  for(int i = 0; i < wood.size(); i++){
+  for(int i = 0; i < woods.size(); i++){
 
-    string blockname = wood[i] + "_" + furniture[2];
+    string blockname = woods[i] + "_" + furniture[2];
 
     out  << "public static final Block " << capitalize(blockname) << " = registerBlock(\"" << blockname << "\", " << '\n'
     << "  new Block(AbstractBlock.Settings.create()" << '\n'
     << "  .nonOpaque()" << '\n'
     << "  .mapColor(MapColor.OAK_TAN)" << '\n'
     << "  .strength(0.8F)" << '\n'
-    << "  .sounds(BlockSoundGroup.WOOD)" << '\n'
+    << "  .sounds(BlockSoundGroup.WOODs)" << '\n'
     << "  .burnable()));" << "\n\n";
   }
 
-  for(int i = 0; i < wood.size(); i++){
-      for(int j = 0; j < colour.size(); j++){
+  for(int i = 0; i < woods.size(); i++){
+      for(int j = 0; j < colours.size(); j++){
 
-    string blockname = colour[j] + "_cushioned_" + wood[i] + "_" + furniture[2];
+    string blockname = colours[j] + "_cushioned_" + woods[i] + "_" + furniture[2];
 
     out  << "public static final Block " << capitalize(blockname) << " = registerBlock(\"" << blockname << "\", " << '\n'
     << "  new ChairBlock(AbstractBlock.Settings.create()" << '\n'
     << "  .nonOpaque()" << '\n'
     << "  .mapColor(MapColor.OAK_TAN)" << '\n'
     << "  .strength(0.8F)" << '\n'
-    << "  .sounds(BlockSoundGroup.WOOD)" << '\n'
+    << "  .sounds(BlockSoundGroup.WOODs)" << '\n'
     << "  .burnable()));" << "\n\n";
     }
   }
@@ -127,15 +127,15 @@ void EggChairBlockGen(){
     << "  .strength(0.8F)" << '\n'
     << "  .sounds(BlockSoundGroup.METAL)));" << "\n\n";
 
-    for(int i = 0; i < colour.size(); i++){
-      string blockname = colour[i] + "_cushioned_" + furniture[3];
+    for(int i = 0; i < colours.size(); i++){
+      string blockname = colours[i] + "_cushioned_" + furniture[3];
 
     out  << "public static final Block " << capitalize(blockname) << " = registerBlock(\"" << blockname << "\", " << '\n'
     << "  new ChairBlock(AbstractBlock.Settings.create()" << '\n'
     << "  .nonOpaque()" << '\n'
     << "  .mapColor(MapColor.OAK_TAN)" << '\n'
     << "  .strength(0.8F)" << '\n'
-    << "  .sounds(BlockSoundGroup.WOOD)" << '\n'
+    << "  .sounds(BlockSoundGroup.WOODs)" << '\n'
     << "  .burnable()));" << "\n\n";
   }
 
@@ -154,16 +154,16 @@ void FoldingChairBlockGen(){
     << "  .strength(0.8F)" << '\n'
     << "  .sounds(BlockSoundGroup.METAL)));" << "\n\n";
 
-      for(int i = 0; i < colour.size(); i++){
+      for(int i = 0; i < colours.size(); i++){
 
-    string blockname = colour[i] + "_cushioned_" + furniture[4];
+    string blockname = colours[i] + "_cushioned_" + furniture[4];
 
     out  << "public static final Block " << capitalize(blockname) << " = registerBlock(\"" << blockname << "\", " << '\n'
     << "  new ChairBlock(AbstractBlock.Settings.create()" << '\n'
     << "  .nonOpaque()" << '\n'
     << "  .mapColor(MapColor.OAK_TAN)" << '\n'
     << "  .strength(0.8F)" << '\n'
-    << "  .sounds(BlockSoundGroup.WOOD)" << '\n'
+    << "  .sounds(BlockSoundGroup.WOODs)" << '\n'
     << "  .burnable()));" << "\n\n";
     }
 

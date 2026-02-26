@@ -11,11 +11,17 @@ Made specifically so I can speed up making the code for [Decorations](https://gi
 Don't.
 
 # Roadmap
-- [X] captital functions
-- [X] export to `.txt` file
 - [X] make `DataGen_builder.cpp`
 - [X] make `ItemGroup_builder.cpp`
-- [ ] make `Model_builder.cpp`
+- [X] make `Lang_builder.cpp`
+- [X] make `ModBlock_builder.cpp`
+- [X] make `Model_builder.cpp`
+
+- [ ] finish `DataGen_builder.cpp`
+- [ ] finish `ItemGroup_builder.cpp`
+- [ ] finish `Lang_builder.cpp`
+- [ ] finish `ModBlock_builder.cpp`
+- [ ] finish `Model_builder.cpp`
 
 # Contributes
 Open to contributions!
