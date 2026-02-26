@@ -2,101 +2,36 @@
 #include <iostream>
 #include <vector>
 
-inline std::vector<std::string> mapcolour = {
-  "CLEAR",
-  "PALE_GREEN ",
-	"PALE_YELLOW",
-	"WHITE_GRAY",
-	"BRIGHT_RED",
-	"PALE_PURPLE",
-	"IRON_GRAY",
-	"DARK_GREEN",
-	"WHITE",
-	"LIGHT_BLUE_GRAY",
-	"DIRT_BROWN",
-	"STONE_GRAY",
-	"WATER_BLUE",
-	"OAK_TAN",
-	"OFF_WHITE",
-	"ORANGE",
-	"MAGENTA",
-	"LIGHT_BLUE",
-	"YELLOW",
-	"LIME",
-	"PINK",
-	"GRAY",
-	"LIGHT_GRAY",
-	"CYAN",
-	"PURPLE",
-	"BLUE",
-	"BROWN",
-	"GREEN",
-	"RED",
-	"BLACK",
-	"GOLD",
-	"DIAMOND_BLUE",
-	"LAPIS_BLUE",
-	"EMERALD_GREEN",
-	"SPRUCE_BROWN",
-	"DARK_RED",
-	"TERRACOTTA_WHITE",
-	"TERRACOTTA_ORANGE",
-	"TERRACOTTA_MAGENTA",
-	"TERRACOTTA_LIGHT_BLUE",
-	"TERRACOTTA_YELLOW",
-	"TERRACOTTA_LIME",
-	"TERRACOTTA_PINK",
-	"TERRACOTTA_GRAY",
-	"TERRACOTTA_LIGHT_GRAY",
-	"TERRACOTTA_CYAN",
-	"TERRACOTTA_PURPLE",
-	"TERRACOTTA_BLUE",
-	"TERRACOTTA_BROWN",
-	"TERRACOTTA_GREEN",
-	"TERRACOTTA_RED",
-	"TERRACOTTA_BLACK",
-	"DULL_RED",
-	"DULL_PINK",
-	"DARK_CRIMSON",
-	"TEAL",
-	"DARK_AQUA",
-	"DARK_DULL_PINK",
-	"BRIGHT_TEAL",
-	"DEEPSLATE_GRAY",
-	"RAW_IRON_PINK",
-	"LICHEN_GREEN",
-};
-
 // static unless mc adds more woods
-  inline std::vector<std::string> wood = {
+  inline std::vector<std::string> woods = {
     "oak",
-    "stripped_oak",
+    "stripped oak",
     "spruce",
-    "stripped_spruce",
+    "stripped spruce",
     "birch",
-    "stripped_birch",
+    "stripped birch",
     "jungle",
-    "stripped_jungle",
+    "stripped jungle",
     "acacia",
-    "stripped_acacia",
-    "dark_oak",
-    "stripped_dark_oak",
+    "stripped acacia",
+    "dark oak",
+    "stripped dark oak",
     "mangrove",
-    "stripped_mangrove",
+    "stripped mangrove",
     "cherry",
-    "stripped_cherry",
-    "pale_oak",
-    "stripped_pale_oak",
+    "stripped cherry",
+    "pale oak",
+    "stripped pale oak",
     "bamboo",
-    "stripped_bamboo",
+    "stripped bamboo",
     "crimson",
-    "stripped_crimson",
+    "stripped crimson",
     "warped",
-    "stripped_warped",
+    "stripped warped",
   };
 
 // static unless mc adds more colours
-  inline std::vector<std::string> colour = {
+  inline std::vector<std::string> colours = {
     "white",
     "pink",
     "red", 
@@ -118,14 +53,20 @@ inline std::vector<std::string> mapcolour = {
   };
 
   inline std::vector<std::string> furniture = {
-    "chair",
-    "stool",
-    "attoman",
-    "egg_chair",
-    "folding_chair",
+    "dining chair",     // RED_cushioned_OAK_DINING_CHAIR
+    "ladderback chair", // RED_cushioned_OAK_LADDERBACK_CHAIR
+    "pew",              // RED_cushioned_OAK_PEW
+    "director chair",   // RED_OAK_DIRECTORS_CHAIR
+    "egg chair",        // RED_EGG_CHAIR
+    "folding chair",    // RED_cushioned_FOLDING_CHAIR
+    "bench",            // RED_BENCH
+    "stool",            // RED_cushioned_OAK_STOOL
+    "attoman",          // RED_cushioned_OAK_ATTOMAN
+    "table",            // GLASS_TABLE
+    "countertop",       // SMOOTH-STONE_OAK_COUNTERTOP
   };
 
-  inline std::vector<std::string> mineral = {
+  inline std::vector<std::string> tiers = {
     "copper",
     "iron",
     "gold",
@@ -133,7 +74,13 @@ inline std::vector<std::string> mapcolour = {
     "obsidian",
   };
 
-  inline std::vector<std::string> lgbtq = {
-    "pride",
-    "transgender",
+  inline std::vector<std::string> stones = {
+    "stone",
+    "smooth stone",
+    "granite",
+    "polished granite",
+    "andesite",
+    "polished andesite",
+    "diorite",
+    "polished diorite",
   };
