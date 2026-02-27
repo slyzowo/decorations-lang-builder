@@ -19,7 +19,7 @@ Don't.
 
 - [ ] finish `DataGen_builder.cpp`
 - [ ] finish `ItemGroup_builder.cpp`
-- [ ] finish `Lang_builder.cpp`
+- [X] finish `Lang_builder.cpp`
 - [ ] finish `ModBlock_builder.cpp`
 - [ ] finish `Model_builder.cpp`
 
